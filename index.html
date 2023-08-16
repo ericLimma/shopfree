@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+    <title>ShopFree</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/email.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/advantages.css">
+    <link rel="stylesheet" href="./css/brands.css">
+    <link rel="stylesheet" href="./css/cta.css">
+    <link rel="stylesheet" href="./css/faq.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <div class='header-container'>
+            <img class="logo_header" src="./img/logo.png" alt="">
+            <h1 class="title">Dê vida as suas ideias por R$ 15,00 por mês</h1>
+            <p>O futuro dos bussiness é aqui. Se inscreva para um teste gratis e aproveite 3 meses de shopFree por R$
+                15,00
+                por mês nos planos selecionados.</p>
+            <form class="email_form" action="send">
+                <fieldset>
+                    <input type="email" placeholder="Digite seu e-mail">
+                    <button title="enviar email">Iniciar teste grátis</button>
+                </fieldset>
+            </form>
+            <small>Shopifree grátis por 3 dias, sem necessidade de cartão de crédito. Ao inserir seu e-mail, você
+                concorda
+                em receber e-mails de marketing da Shopify.</small>
+        </div>
+    </header>
+    <main>
+        <section>
+            <img class="logo_main"
+                src="./img/market-be57f30bfb32b297a04a00e2cf2f1adbaecfbde7a8816827f1d8f2a219727bea.svg"
+                alt="free shop logo">
+            <div class="advantages_container">
+                <div class="advantages">
+                    <div class="icon"><i class="bi bi-brush-fill"></i></div>
+                    <h3>Templates Customizáveis</h3>
+                    <p>Designs de sites gratuitos para lançar sua loja de forma rápida e fácil.</p>
+                </div>
+                <div class="advantages">
+                    <div class="icon"><i class="bi bi-box2-fill"></i></div>
+                    <h3>Tudo aqui</h3>
+                    <p>O Shopify cuida de tudo, desde marketing e pagamentos até transações seguras e envio.</p>
+                </div>
+                <div class="advantages">
+                    <div class="icon"><i class="bi bi-lock-fill"></i></div>
+                    <h3>Uma plataforma segura</h3>
+                    <p> Milhões de usuários confiam no Shopify para gerenciar suas lojas online.</p>
+                </div>
+            </div>
+        </section>
+        <section class="brands">
+            <img src="./img/brands/a (1).svg" alt="">
+            <img src="./img/brands/a (2).svg" alt="">
+            <img src="./img/brands/a (3).svg" alt="">
+            <img src="./img/brands/a (4).svg" alt="">
+            <img src="./img/brands/a (5).svg" alt="">
+            <img src="./img/brands/a (6).svg" alt="">
+            <img src="./img/brands/a (7).svg" alt="">
+            <img src="./img/brands/a (8).svg" alt="">
+            <img src="./img/brands/a (10).svg" alt="">
+        </section>
+        <section class="quote">
+            <blockquote>
+                <p class="h1">"O Shopifree é melhor do que qualquer outra plataforma com a qual já mexemos, e já mexemos
+                    com todas elas"</p>
+                <footer>Jonathon Bayme, CEO of Theory11</footer>
+            </blockquote>
+
+        </section>
+        <section class="call-to-action">
+            <h2 class="h1">Construa o seu negócio dos sonhos por apenas R$ 15 por mês.</h2>
+            <p>Inicie seu teste gratuito e aproveite 3 meses de Shopify por R$ 15 por mês em planos selecionados.</p>
+            <form class="email_form" action="send">
+                <fieldset>
+                    <input type="email" placeholder="Digite seu e-mail">
+                    <button title="enviar email">Iniciar teste grátis</button>
+                </fieldset>
+            </form>
+            <small>Shopifree grátis por 3 dias, sem necessidade de cartão de crédito. Ao inserir seu e-mail, você
+                concorda
+                em receber e-mails de marketing da Shopify.</small>
+        </section>
+        <section class="faq">
+
+            <h2 class="title faq-title">FAQ</h2>
+
+            <script>
+                function expandFAQ(button) {
+                    var content = button.nextElementSibling;
+                    var icon = button.querySelector("div i");
+
+                    if (content.classList.contains("display-expanded")) {
+                        content.classList.remove("display-expanded");
+                        icon.classList.remove("bi-dash");
+                        icon.classList.add("bi-plus");
+                    } else {
+                        content.classList.add("display-expanded");
+                        icon.classList.remove("bi-plus");
+                        icon.classList.add("bi-dash");
+                    }
+                }
+            </script>
+
+            <div class="faq_box">
+                <button class="faq_box_title" onclick="expandFAQ(this)">
+                    <h3>O que é o ShopFree e como ele funciona?</h3>
+                    <div><i class="bi bi-plus"></i></div>
+                </button>
+                <div class="faq_content">
+                    <p>ShopFree é uma plataforma de comércio completa que permite iniciar, expandir e gerenciar um
+                        negócio.</p>
+
+                    <p>Com o ShopFree, você pode:</p>
+
+                    <ul>
+                        <li>Criar e personalizar uma loja online</li>
+                        <li> Vender em vários lugares, incluindo web, dispositivos móveis, redes sociais, marketplaces
+                            online, lojas físicas e lojas temporárias
+                        </li>
+                        <li>Gerenciar produtos, estoque, pagamentos e envios</li>
+                    </ul>
+
+                    <p>
+                        O ShopFree é totalmente baseado em nuvem e hospedado, o que significa que você não precisa se
+                        preocupar com atualizações ou manutenção de software ou servidores web. Isso oferece a
+                        flexibilidade
+                        de acessar e administrar seu negócio de quase qualquer lugar, inclusive pelo seu dispositivo
+                        móvel.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq_box">
+                <button class="faq_box_title" onclick="expandFAQ(this)">
+                    <h3>Quanto custa o ShopFree?</h3>
+                    <div><i class="bi bi-plus"></i></div>
+                </button>
+                <div class="faq_content">
+
+                    <p>Experimente o ShopFree gratuitamente por 3 dias, sem a necessidade de cartão de crédito.
+
+                        Após o término do seu teste, escolha um plano de preços que se adeque ao tamanho e estágio do
+                        seu
+                        negócio.</p>
+                </div>
+            </div>
+
+            <div class="faq_box">
+                <button class="faq_box_title" onclick="expandFAQ(this)">
+                    <h3>Posso usar meu próprio nome de domínio com o ShopFree?</h3>
+                    <div><i class="bi bi-plus"></i></div>
+                </button>
+                <div class="faq_content">
+
+                    <p>Sim, você pode usar seu próprio nome de domínio com o ShopFree.
+
+                        Se você já possui um nome de domínio, pode conectá-lo ao ShopFree através do painel de
+                        administração
+                        da sua loja.
+
+                        Se você ainda não possui um nome de domínio, pode comprar um através do ShopFree ou de um
+                        provedor
+                        terceirizado.
+                    </p>
+                </div>
+            </div>
+            <div class="faq_box">
+                <button class="faq_box_title" onclick="expandFAQ(this)">
+                    <h3>Eu preciso ser um designer ou desenvolvedor para usar o ShopFree?</h3>
+                    <div><i class="bi bi-plus"></i></div>
+                </button>
+                <div class="faq_content">
+
+                    <p>
+                        Não, você não precisa ser um designer ou desenvolvedor para usar o ShopFree.
+
+                        Ao se inscrever no ShopFree, você pode:
+
+                        Personalizar a aparência da sua loja com o construtor de lojas online e temas.
+                        Adicionar recursos e funcionalidades à sua loja com aplicativos.
+
+                        Se precisar de ajuda adicional, você pode entrar em contato com nossa equipe de suporte ou
+                        visitar o
+                        Mercado de Especialistas do ShopFree para buscar e contratar um especialista certificado do
+                        ShopFree.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="#">Termos de Serviço</a>
+            </li>
+            <li>
+                <a href="#">Politica de Privacidade</a>
+            </li>
+            <li>
+                <a href="#">Mapa do Site</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+
+</html>

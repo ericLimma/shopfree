@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #4f0870 #4f087000;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgba(255, 166, 0, 0);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #4f0870;
+    border-radius: 10px;
+    border: 3px solid rgba(255, 166, 0, 0);
+}
+
+.bold {
+    font-weight: 600;
+}
+
+:root {
+    min-width: 375px;
+}
+
+body {
+    font-size: 20pt;
+    width: 100%;
+}
+
+.title{
+    font-size: 55px;
+    line-height: 60px;
+}
+small{
+    font-size: 15px;
+    margin-top: 15px;
+}

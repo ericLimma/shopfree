@@ -1,0 +1,21 @@
+header {
+    background-image: radial-gradient(circle at 0 0, #4f0870 0, rgba(95, 213, 182, 0) 30%), linear-gradient(180deg, #4f0870, rgba(121, 223, 255, 0) 70%), radial-gradient(circle at 95% 0, #f224c5 0, rgba(95, 213, 182, 0) 20%);
+    width: 100%;
+
+
+}
+
+.header-container {
+    max-width: 1180px;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_header {
+    width: 150px;
+}
