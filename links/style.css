@@ -1,0 +1,14 @@
+a {
+    color: #4e014e;
+}
+li{
+    list-style: none;
+}
+body{
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+p{
+    padding: 1rem;
+}
